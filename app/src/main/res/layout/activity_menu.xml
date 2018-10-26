@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text=" *1. Intent Put Extra"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:textSize="28sp"
+        android:backgroundTint="#3773e2"
+        android:textColor="#ffff"
+        android:text="Intent Put Extra"
+        android:onClick="aksi2PutExtra"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text=" *1. Intent Put Extras"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:textSize="28sp"
+        android:backgroundTint="#16af0b"
+        android:textColor="#ffff"
+        android:text="Intent Put Extras"
+        android:onClick="aksi2PutExtras"
+        android:layout_marginBottom="20dp"/>
+
+</LinearLayout>
